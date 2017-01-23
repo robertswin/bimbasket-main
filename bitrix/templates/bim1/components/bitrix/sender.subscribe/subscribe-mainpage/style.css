@@ -1,0 +1,147 @@
+.bx-subscribe {
+	margin: 10px 0;
+}
+.bx-subscribe div.bx-block-title {
+
+	color: #343434;
+	text-transform: uppercase;
+	font-size: 12px;
+	margin-bottom: 9px;
+	font-weight: 600;
+}
+.bx-subscribe-desc {
+	color: #aaa;
+	font-size: 12px;
+	position: relative;
+	margin-top: -5px;
+	margin-bottom: 3px;
+}
+.bx-subscribe .bx-input-group .bx-form-control {
+	position: relative;
+	margin-bottom: 15px;
+	display: block;
+	width: 100%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #F8FAFC;
+	border: 1px solid #D5DADC;
+	border-radius: 2px;
+	outline: none;
+	box-shadow: none !important;
+	-webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.bx-ios .bx-subscribe .bx-input-group .bx-form-control {
+	/* Fix of input shadow for IOS browsers. */
+	background-image: -webkit-linear-gradient(#f8fafc 0%, #f8fafc 100%);
+	background-image: linear-gradient(#f8fafc 0%, #f8fafc 100%);
+}
+.btn-subscribe {
+	cursor: pointer;
+	text-align: center;
+	background: #70bb18;
+	border: none;
+	color: #fff;
+	font-size: 13px;
+	position: relative;
+	text-transform: uppercase;
+	border-radius: 2px;
+	line-height: 30px;
+	height: 40px;
+	padding: 5px 60px 5px 20px;
+	vertical-align: middle;
+	outline: none;
+	-webkit-transition: width 5s linear;
+	-moz-transition: width 5s linear;
+	-ms-transition: width 5s linear;
+	-o-transition: width 5s linear;
+	transition: width 5s linear;
+}
+
+.btn-subscribe span {
+	display: block;
+}
+.btn-subscribe.send {
+	padding: 5px 40px;
+	-webkit-animation-name: MeilSend;
+	animation-name: MeilSend;
+	-webkit-animation-duration: .5s;
+	animation-duration: .5s;
+	outline: none;
+	color: #fff;
+}
+
+
+.bx_subscribe_response_container {
+	padding: 40px;
+	color: #35414E;
+}
+
+.bx_subscribe_checkbox_container {
+  line-height: 16px;
+  font-size: 13px;
+  margin-bottom: 3px;
+  vertical-align: middle;
+  color: #aaa;
+}
+
+
+
+#subscribe-block .bx-input-group
+
+{
+	display: inline-block;
+	  width: 66%;
+}
+#subscribe-block .bx_subscribe_submit_container
+{
+width: 32%;
+    display: inline-block;
+}
+
+ 
+#subscribe-block input.bx-form-control
+{
+    width: 93%;
+    height: 45px;
+    margin-left: 24px;
+    opacity: .5;
+    border: none;
+    border-bottom: 1px solid #666;
+    background-color: white;
+}
+
+
+#subscribe-block .btn-subscribe:before
+{
+	display:none;
+	margin:0;
+	padding:0;
+}
+
+#subscribe-block .btn-subscribe {
+    cursor: pointer;
+    text-align: center;
+    background: #70bb18;
+    border: none;
+    color: #fff;
+    font-size: 13px;
+    position: relative;
+    text-transform: uppercase;
+    border-radius: 4px;
+    line-height: 30px;
+    height: 33px;
+    vertical-align: middle;
+	padding:0;
+    outline: none;
+    border-radius: 4px;
+    background-color: #a662a2;
+    -webkit-border-top-left-radius: 0;
+    border-top-left-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+

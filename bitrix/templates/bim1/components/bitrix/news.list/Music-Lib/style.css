@@ -1,0 +1,68 @@
+#music-Lib 
+{
+  font-family: CoreRhino25Thin;	
+}
+#music-Lib p.name {
+font-size: 15px;
+    margin: 2% 3%;
+    padding: 1.5% 0;
+    background: #a8609e;
+    color: #fff;
+    width: 60%;
+    height: 37px;
+    text-align: center;
+}
+
+#music-Lib ul
+{
+	
+}
+#music-Lib ul li
+{ 
+    display: inline-block;
+    overflow: hidden;
+}
+#music-Lib ul li p.original-name
+{
+	font-family: CoreRhino45Regular;
+}
+#music-Lib ul li p.path
+{
+	font-size: 14px;
+    word-wrap: break-word;
+    width: 84%;
+}
+
+audio#audioarea
+{
+	 
+}
+#playlist {
+    width: 100%;
+	height:320px;
+	overflow:overlay;
+    background: #64c8a4;
+    color: #fff;
+    font-size: 16px;
+    border: 4px double #ffffff;
+    padding: 2% 0;
+}
+
+
+#playlist li{
+cursor: pointer;
+    padding: .5% 5%;
+}
+#playlist li:active
+{
+	    font-weight: 800;
+}
+#playlist li:hover{
+	    font-weight: 800;
+                           
+}
+
+#playlist li p.name 
+{
+	
+}

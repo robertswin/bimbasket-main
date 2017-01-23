@@ -1,0 +1,119 @@
+
+
+#result-filter-form
+{
+	/* background: #64c8a4 url('/bitrix/templates/bim1/images/pattern_top.png'); */
+    padding: 3% 5%;
+    color: #000;
+    border: 12px double #fff;
+}
+
+
+h1.filter-name
+{
+	    color: #fff;
+    margin: 0;
+    margin-bottom: 3%;
+}
+
+h4.subtitle
+{
+	text-align:center;
+	margin:10% 0;
+}
+
+
+table
+{
+	    width: 100%;
+}
+#result-filter-form tfoot
+{
+	    margin-top: 15%;
+    display: block;
+}
+#result-filter-form input.set, #result-filter-form input.unset
+{
+
+    height: 33px;
+    background-color: #a662a2;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    color: white;
+    font-family: CoreRhino35Light;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px;
+    margin-bottom: 6px;
+    border: none;
+    width: 147px;	
+}
+
+#result-filter-form input.set
+{
+	
+}
+
+
+.affiliate-result-table{
+	width: 100%;
+	
+	border-collapse: collapse;
+		background: #64c8a4 url('/bitrix/templates/bim1/images/pattern_top.png');
+    padding: 3% 5%;
+    color: #fff;
+    border: 12px double #fff;
+}
+
+.affiliate-filter-table {
+	width: 0%;
+	border: 1px solid #B7BCDB;
+	border-collapse: collapse;
+}
+
+.affiliate-filter-table td {
+	padding: 3px;
+	border: 0px;
+}
+
+.affiliate-filter-table thead td, .affiliate-result-table thead td
+{
+	text-align: center;
+	background-color: #EBECF3;
+	font-family: Arial, Helvetica, sans-serif; font-size:12px;
+	color:#25639A;
+}
+
+.affiliate-filter-table tbody td, .affiliate-result-table tbody td
+{
+	font-family: Arial, Helvetica, sans-serif; font-size:12px;
+}
+
+.affiliate-filter-table tfoot td
+{
+	font-size: 11px;
+	text-align: center;
+	background-color: #EBECF3;
+}
+
+.affiliate-result-table tfoot td
+{
+	background-color: #EBECF3;
+	font-family: Arial, Helvetica, sans-serif; font-size:12px;
+	color:#25639A;
+}
+
+.affiliate-filter-table tfoot input {
+	font-family:Verdana,Arial,Helvetica; font-size:11px;
+}
+
+
+.affiliate-result-table td {
+	padding: 3px;
+	border: 1px solid #B7BCDB;
+}
+
+.affiliate-result-table .affiliate-result-table-right
+{
+	text-align: right;
+}

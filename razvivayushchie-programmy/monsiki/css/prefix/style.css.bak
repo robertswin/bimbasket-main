@@ -1,0 +1,157 @@
+
+/*/////////////////////////////////////////////
+//              FONTS INSERT                 //
+////////////////////////////////////////////*/
+
+@font-face
+{
+    font-family: CoreRhino25Thin;
+
+    src: url('../fonts/CoreRhino25Thin.otf');
+}
+
+@font-face
+{
+    font-family: CoreRhino25Thin-Italic;
+
+    src: url('../fonts/CoreRhino25Thin-Italic.otf') format ('otf');
+}
+
+@font-face
+{
+    font-family: CoreRhino35Light;
+
+    src: url('../fonts/CoreRhino35Light.otf');
+}
+
+@font-face
+{
+    font-family: CoreRhino45Regular;
+
+    src: url('../fonts/CoreRhino45Regular.otf');
+}
+
+@font-face
+{
+    font-family: CoreRhino55Medium;
+
+    src: url('../fonts/CoreRhino55Medium.otf');
+}
+
+@font-face
+{
+    font-family: CoreRhino65Bold;
+
+    src: url('../fonts/CoreRhino65Bold.otf');
+}
+
+@font-face
+{
+    font-family: CoreRhino75Heavy;
+
+    src: url('../fonts/CoreRhino75Heavy.otf');
+}
+
+@font-face
+{
+    font-family: CoreRhino85Black;
+
+    src: url('../fonts/CoreRhino85Black.otf');
+}
+
+
+/*/////////////////////////////////////////////
+//              FONTS INSERT                 //
+
+*/
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+body
+{
+    font-family: CoreRhino45Regular;
+
+    position: fixed;
+
+    width: 100%;
+    height: 100%;
+
+    background-repeat: no-repeat !important;
+    background-clip: padding-box !important;
+    background-size: cover !important;
+}
+.logo
+{
+    width: 280px;
+    margin-top: 18px;
+}
+.logo img
+{
+    width: 280px;
+}
+
+.csa-head
+{
+    position: fixed;
+
+    width: 100%;
+    height: 100%;
+
+    background: url('../img/bg2.jpg');
+    background-repeat: no-repeat;
+    background-repeat: no-repeat !important;
+    background-position: bottom center !important;
+    background-clip: content-box !important;
+    background-size: 100% !important;
+}
+.title
+{
+    font-size: 29px;
+
+    float: right;
+
+    width: 51%;
+    margin-top: 6%;
+    margin-right: -18%;
+    margin-bottom: 10px;
+    padding: 2%;
+
+    color: #9664a0;
+    border-radius: 8px;
+}
+
+#mc_embed_signup
+{
+    font-family: CoreRhino45Regular;
+
+    clear: left;
+
+    background: #fff;
+}
+#mc_embed_signup
+{
+    position: fixed;
+    top: 30%;
+    left: 60%;
+
+    width: 29%;
+
+    border-radius: 6px;
+    background: rgba(255, 255, 255, .66);
+    box-shadow: 4px 6px 8px #aaa;
+}
+#mc_embed_signup .button
+{
+    background: #a8609e;
+}
+
+
+input
+{
+    background: rgba(255, 255, 255, .66);
+    background-color: white;
+}

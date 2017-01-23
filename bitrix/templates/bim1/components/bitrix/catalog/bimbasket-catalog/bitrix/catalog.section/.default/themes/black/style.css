@@ -1,0 +1,39 @@
+/* catalog.section */
+.bx_black.bx-section-desc{
+	border-left-color:#0083d1;
+}
+.bx_catalog_list_home.bx_black .bx_bt_button  				{
+width: 134px;
+height: 29px !important;
+background-color: #a662a2;
+border-radius: 4px;
+
+
+color: white;
+font-family: CoreRhino35Light;
+font-size: 16px;
+font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.bx_catalog_list_home.bx_black .bx_bt_button:hover  		{
+	background:#64c8a4;
+}
+.bx_catalog_list_home.bx_black .bx_bt_button:active  		{
+	
+}
+
+/* scu_detail_size */
+.bx-retina .bx_catalog_list_home.bx_black .bx_item_detail_size ul li.bx_active .cnt{
+	-webkit-border-image: url(images/x2border_active.png) 2 stretch;
+	-moz-border-image: url(images/x2border_active.png) 2 stretch;
+	-o-border-image: url(images/x2border_active.png) 2 stretch;
+	border-image: url(images/x2border_active.png) 2 fill stretch;
+}
+/* scu_detail_scu */
+.bx-retina .bx_catalog_list_home.bx_black .bx_item_detail_scu .bx_scu ul li.bx_active .cnt{
+	-webkit-border-image: url(images/x2border_active.png) 2 stretch;
+	-moz-border-image: url(images/x2border_active.png) 2 stretch;
+	-o-border-image: url(images/x2border_active.png) 2 stretch;
+	border-image: url(images/x2border_active.png) 2 fill stretch;
+}

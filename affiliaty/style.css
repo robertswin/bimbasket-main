@@ -1,0 +1,67 @@
+#aff-main 
+{
+	    margin: 5% 0;
+}
+
+#aff-main h3
+{
+	 margin: 1% 0;
+}
+
+
+
+#aff-how-to
+{
+	    margin: 5% 0;
+}
+#aff-how-to h5
+{
+	margin-bottom:28px;
+}
+#aff-changes
+{
+	margin: 5% 0;	
+}
+#aff-changes h5
+{
+	margin-bottom: 31px;
+	margin-top: 6%;
+}
+#aff-result
+{
+	margin-top:1%;
+}
+
+#aff-result h3
+{
+	margin:8% 0;
+}
+
+#aff-result input[type="submit"]
+{
+    cursor: pointer;
+    text-align: center;
+    background: #70bb18;
+    border: 0;
+    color: #fff;
+    font-size: 13px;
+    width: 450px;
+    position: relative;
+    text-transform: uppercase;
+    border-radius: 4px;
+    line-height: 30px;
+    height: 53px;
+    padding: 3%;
+    vertical-align: middle;
+    padding: 0;
+    outline: 0;
+    border-radius: 4px;
+    background-color: #a662a2;
+    margin-top: 60px;
+
+}
+
+#aff-result  .affiliate-agreement-text {
+    width: 100%;
+    height: 450px;
+}

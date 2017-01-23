@@ -1,0 +1,1047 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+
+
+
+
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+/* // -------+ start-block	 */
+	.start h1.title {
+    position: absolute;
+    left: 0%;
+    margin-top: 40%;
+    text-align: center;
+    color: #fff;
+    padding: 0 5%;
+    font-size: 22px;
+}
+/* // -------+ start-block	 */
+/* //----+ monster-block */
+#monstr-block 
+{
+	overflow:hidden;
+}
+#monstr-block h1 {
+    font-family: 'CoreRhino85Black';
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 9px;
+}
+#monstr-block a {
+    text-decoration: none;
+    color: #fff;
+}
+#monstr-block button.btn-choose {
+    background-color: #63bb57;
+    border: none;
+    height: 40px;
+    padding: 1.5%;
+    font-size: 18px;
+    border-radius: 47px;
+    box-shadow: 1px 1px 1px black;
+    margin-top: 0;
+    cursor: pointer;
+    width: 52%;
+    z-index: 6;
+    top: 0;
+    margin-right: 0.5%;
+    margin-left: 0%;
+    /* float: right; */
+    vertical-align: top;
+}
+#monstr-block button.btn-buy {
+    background-color: #63bb57;
+    border: none;
+    height: 40px;
+    padding: 1.5%;
+    font-size: 18px;
+    border-radius: 47px;
+    box-shadow: 1px 1px 1px black;
+    margin-top: -1px;
+    cursor: pointer;
+    width: 41%;
+    z-index: 6;
+    top: 0;
+    margin-right: 3.5%;
+    margin-left: 2%;
+    float: right;
+    vertical-align: top;
+}
+/* //----+ monster-block */
+.product-3 .box-nab {
+    width: 78%;
+    float: right;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 3%;
+    border-radius: 24px;
+    box-shadow: -3px -1px 19px #4a76b7;
+    margin-right: 15%;
+}
+.product-3 .box-char {
+    position: relative;
+    /* left: 7%; */
+    /* top: -1%; */
+    width: 69%;
+    filter: shadow;
+    filter: drop-shadow(9px -4px 8px rgba(0,0,0,0.5));
+}
+.product-3 h3.subtitle {
+    color: #000;
+    width: 89%;
+    padding: 1%;
+    border-radius: 20px;
+	height:auto;
+    margin-left: 2%;
+    font-size: 12px;
+    margin-top: 2%;
+    line-height: 18px;
+}
+
+	
+}
+/* Смартфоны (ландшафтный режим) */
+
+@media only screen and (min-width: 321px) {}
+
+
+
+
+/* Смартфоны (портретный режим) */
+@media only screen and (max-width: 320px) {
+
+
+
+
+	
+}
+
+/* Планшеты (портретный и ландшафтный режимы) */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+
+.start {
+    width: 100%;
+    background: url(../images/moon-T.png) no-repeat;
+    background-position: top right;
+    background-size: 10%;
+}
+.start h1.title {
+    position: absolute;
+    left: 0%;
+    margin-top: 14%;
+    text-align: center;
+    color: #fff;
+    padding: 0 5%;
+}
+#animation-block {
+    position: fixed;
+    bottom: 0;
+    height: 61px;
+}
+#santaa {
+    position: relative;
+    z-index: 1;
+    bottom: 172px;
+    left: 0;
+    display: block;
+    height: 311px;
+    background: url(../images/fon-treees.png) repeat-x;
+    background-size: 63%;
+}
+#santad {
+  position: relative;
+    z-index: 2;
+    bottom: 0px;
+    left: 0;
+    width: 1198px;
+    height: 70px;
+    background: url(../images/deda.png) no-repeat;
+    background-size: 29%;
+}
+.product-2 .box {
+    position: relative;
+    left: 0%;
+    margin-top: 0;
+	    
+}
+.product-2 img {
+    filter: drop-shadow(-9px 6px 8px rgba(0,0,0,0.5));
+ 
+
+    margin: 0;
+}
+.product-2 h3.subtitle {
+font-family: 'CoreRhino35Light';
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    width: 100%;
+    padding: 0 4%;
+    margin-bottom: 11%;
+}
+
+.product-2 h1.title {
+    font-family: 'CoreRhino85Black';
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: #fff;
+    text-align: center;
+}
+
+.product-2 ul li {
+    font-size: 14px;
+    margin-bottom: 1%;
+}
+
+}
+/* Планшеты (ландшафтный режим) */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+	
+	
+}
+
+/* Планшеты (портретный режим) */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+	
+	
+}
+
+/* Ноутбуки и ПК */
+@media only screen and (min-width: 1224px) {
+	
+}
+
+
+/* Большие дисплеи */
+@media only screen and (min-width: 1824px) {
+#nav
+{
+    position: fixed;
+    top: 45%;
+    right: 2%;
+
+    color: #000;
+}
+
+
+.next-control
+{
+    font-size: 2.1em;
+
+    position: fixed;
+    bottom: -4px;
+    left: 50%;
+
+    width: 26px;
+
+    text-align: center;
+
+    color: #000;;
+}
+a
+{
+    text-decoration: none;
+
+    color: #7fb6d8;
+}
+a:focus,
+a:hover
+{
+    text-decoration: underline;
+
+    color: #a8609e;
+}
+a:active
+{
+    color: #a8609e;
+}
+
+#fp-nav ul li .fp-tooltip
+{
+    font-family: CoreRhino25Thin;
+    font-size: 14px;
+
+    position: absolute;
+    top: -2px;
+
+    display: block;
+    overflow: hidden;
+
+    width: 0;
+    max-width: 220px;
+
+    cursor: pointer;
+    white-space: nowrap;
+
+    opacity: 0;
+    color: #64c8a4;
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span
+{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+
+    width: 4px;
+    height: 4px;
+    margin: -2px 0 0 -2px;
+
+    -webkit-transition: all .1s ease-in-out;
+            transition: all .1s ease-in-out;
+
+    border: 0;
+    border-radius: 50%;
+    background: #64c8a4;
+}
+
+h1.title
+{
+    font-family: 'CoreRhino85Black';
+    font-size: 40px;
+    font-weight: 400;
+
+    color: #ad5a95;
+}
+h3.subtitle
+{
+    font-family: 'CoreRhino45Regular';
+    font-size: 26px;
+    font-weight: 400;
+
+    color: #4c4c4c;
+}
+
+.buy-btn
+{
+    font-family: 'CoreRhino45Regular';
+    font-size: 20px;
+
+    position: relative;
+    top: 120px;
+
+    display: block;
+
+    width: 200px;
+    margin: 0 auto;
+
+    text-align: center;
+
+    color: white;
+    border-radius: 6px;
+    background-color: #64c8a4;
+}
+
+
+.buy-btn:hover
+{
+    -webkit-transition: all .6s ease-in-out;
+            transition: all .6s ease-in-out;
+
+    color: #fff;
+    background-color: #a8609e;
+}
+
+
+
+
+#box-1
+{
+    width: 240px;
+    height: 343px;
+
+    background: url(../images/box1-sprite-t.png) no-repeat;
+	    position: absolute;
+    top: -200px;
+    right: 24%;
+	padding-bottom:150px;
+}
+
+#box-2
+{
+    width: 237px;
+    height: 343px;
+ 
+    background: url(../images/box2-sprite-t.png) no-repeat;
+	position: absolute;
+	top:-200px;
+    right: 48%;
+}
+
+#box-3
+{
+    width: 240px;
+    height: 343px;
+
+    background: url(../images/box3-sprite-t.png) no-repeat;
+	position: absolute;
+	top:-350px;
+    right: 70%;
+}
+
+
+
+
+#animation-block {
+    position: fixed;
+    bottom: 29.9%;
+    height: 61px;
+}
+
+
+#santaa
+{
+    position: relative;
+    z-index: 1;
+    bottom: 86px;
+    left: 0;
+
+    display: block;
+
+    height: 319px;
+
+    background: url(../images/fon-treees.png) repeat-x;
+    background-size: 64%;
+}
+
+#santad {
+    position: relative;
+    z-index: 2;
+    bottom: -203px;
+    left: 0;
+    width: 100%;
+	min-width: 1824px;
+    height: 209px;
+    background: url(../images/deda.png) no-repeat;
+    background-size: 40%;
+}
+
+
+/* block-start */
+.start
+{
+    width: 100%;
+
+    background: url('../images/moon-T.png') no-repeat;
+    background-position: top right;
+}
+.start .logo {
+    position: absolute;
+    top: 38px;
+    left: 6%;
+}
+.start h1.title {
+    position: absolute;
+    left: 0%;
+    margin-top: 16%;
+    text-align: center;
+    color: #fff;
+	padding:0 21%;
+}
+
+
+
+
+/* stop-block-start */
+/* block product-1 */
+.product-1
+{
+    overflow: hidden;
+}
+.product
+{
+    margin-top: 4%;
+}
+
+
+.product img
+{
+    margin: 10%;
+}
+.product ul
+{
+    margin: 10%;
+}
+.product ul li:before
+{
+    font-family: 'FontAwesome';
+
+    position: relative;
+    z-index: 0;
+
+    margin-right: 2%;
+
+    content: '\f192';
+
+    color: #64c8a4;
+}
+.product ul li
+{
+    font-size: 32px;
+
+    margin-bottom: 2%;
+}
+
+
+
+/* figures of prod */
+#monsiki-figures
+{
+    position: absolute;
+    z-index: 0;
+    left: -80px;
+
+    width: 100%;
+    height: 1080px;
+    margin: 0;
+    padding: 0;
+
+    white-space: nowrap;
+
+    background: #2f3860;
+}
+
+
+
+#monsiki-figures div.figureleft,
+#monsiki-figures div.figureright,
+#monsiki-figures div.figurecenter
+{
+    display: inline-block;
+
+    width: 36%;
+    min-height: 1080px;
+
+    -webkit-transition: all .6s ease-in-out;
+            transition: all .6s ease-in-out;
+    -webkit-transform: skewX(-10deg);
+            transform: skewX(-10deg);
+}
+#monsiki-figures div.figureleft:hover,
+#monsiki-figures div.figureright:hover,
+#monsiki-figures div.figurecenter:hover
+{
+    cursor: pointer;
+
+    border-right: 8px solid white;
+    border-left: 8px solid white;
+    background: #fff;
+}
+img.monsta-1:hover,
+img.monsta-2:hover,
+img.monsta-3:hover
+{
+    cursor: pointer;
+}
+
+
+
+
+#monsiki-figures .figureleft
+{
+    width: 100%;
+
+    background: #febc11;
+}
+#monsiki-figures .figurecenter
+{
+    width: 38%;
+
+    background: #7b65ac;
+}
+#monsiki-figures .figureright
+{
+    background: #f05381;
+}
+
+.m1
+{
+	
+}
+.m2
+{
+	
+
+}
+.m3
+{
+
+}
+
+.m2 .buy-btn
+{
+	   
+}
+
+
+
+
+p#m2.title
+{
+margin-left: 0;	
+}
+
+.m1 p
+{
+    margin: 0 0 10px;
+    position: absolute;
+    
+    font-size: 22px;
+    width: 90%;
+    font-family: CoreRhino35Light;
+    white-space: normal;
+    top: -49px;	
+	opacity:0;
+
+}
+.m2 p
+{
+    font-size: 22px;
+    width: 90%;
+    font-family: CoreRhino35Light;
+    white-space: normal;
+	opacity:1;
+	
+	 top: -37px;	
+	 
+	 margin-left: 64px;
+	 opacity:0;
+	
+}
+.m3 p
+{
+    margin: 0 0 10px;
+    position: absolute;
+    font-size: 22px;
+    width: 90%;
+    font-family: CoreRhino35Light;
+    white-space: normal;
+    top: -2px;
+    opacity: 0;
+}
+.m1 p.title,.m2 p.title,.m3 p.title
+{
+	  font-family: CoreRhino75Heavy;
+	  font-size:49px;
+	  opacity:1;
+}
+
+
+#m2
+{
+	top: 119px !important;
+    position: absolute;
+}
+#m3
+{
+    top: -15px !important;
+    position: absolute;
+}
+.product-1 ul
+{
+    position: absolute;
+    z-index: 10;
+
+    width: 100%;
+    margin: 0;
+}
+
+
+.product-1 ul li img
+{
+    position: relative;
+    z-index: 13;
+    top: 2em;
+    left: 6%;
+    width: 81%;
+
+}
+
+
+
+.product-1 ul li
+{
+    font-family: CoreRhino75Heavy;
+    font-size: 49px;
+
+    display: inline-block;
+
+    width: 33%;
+    margin-top: 2%;
+
+    white-space: nowrap;
+
+    color: #fff;
+	vertical-align: center;
+
+}
+
+.f-contentleft
+{
+    position: relative;
+    z-index: 10;
+
+    padding: 3% 10%;
+}
+.f-contentcenter
+{
+    position: relative;
+    z-index: 10;
+
+    padding: 10%;
+
+    text-align: center;
+}
+.f-contentright
+{
+    position: relative;
+    z-index: 10;
+
+    margin: 0 0 0 68px;
+        padding: 10% 51px;
+}
+
+/* figures of prod */
+
+
+
+/* stop-block product-1 */
+/* block product-2 */
+.product-2
+{
+    background: #2f3860    url(../images/1stn-bg.png) no-repeat bottom center;
+    background-size: contain;
+}
+
+.product-2 .nabnab
+{
+margin-top: 10%;
+    padding: 4%;
+    background: rgba(112, 116, 135, 0.55);
+    border-radius: 27px;
+    box-shadow: -3px 1px 5px #ecf4f7;
+}
+
+.product-2 .box {
+    position: relative !important;
+    left: 2% !important;
+    margin-top: 12%;
+}
+.box-char-sostav
+{
+    margin-top: -49%;
+    filter: none !important;
+    left: 4%;
+}
+.product-2 h1.title
+{
+    font-family: 'CoreRhino85Black';
+    font-size: 70px;
+    font-weight: 400;
+    margin-top: 7%;
+    margin-bottom: 3%;
+    color: #fff;
+}
+.product-2 h3.subtitle {
+    font-family: 'CoreRhino35Light';
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    width: 98%;
+    padding: 0 4%;
+}
+.product-2 .price {
+    font-size: 80px;
+    font-family: CoreRhino75Heavy;
+    margin-top: 4%;
+    color: #fff;
+    text-shadow: 1px 1px 5px black;
+    text-align: start;
+}
+.product-2 .btn.buy-btn {
+    float: left;
+    background-color: #63bb57;
+    height: 40px;
+    padding: 0.5%;
+    font-size: 22px;
+    border-radius: 47px;
+    box-shadow: 1px 1px 1px black;
+    margin-top: 0;
+    cursor: pointer;
+    z-index: 6;
+}
+.product-2 .btn.buy-btn:hover {
+    
+    background-color: #a8609e;
+
+}
+.product-2 .btn.more-btn {
+	    font-family: 'CoreRhino45Regular';
+    background-color: #63bb57;
+    height: 40px;
+    padding: 0.5%;
+    font-size: 22px;
+    border-radius: 47px;
+    box-shadow: 1px 1px 1px black;
+    margin-top: 0;
+    cursor: pointer;
+    width: 33%;
+    z-index: 6;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+}
+.product-2 img
+{
+    position: absolute;
+
+filter: drop-shadow(-9px 6px 8px rgba(0,0,0,0.5));
+width: 57%;
+}
+
+.product-2 img.santa-1st
+{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 67%;
+
+    background: transparent;
+}
+
+.product-2 ul
+{
+    margin-top: 10%;
+}
+.product-2 ul li
+{
+    font-size: 25px;
+
+    margin-bottom: 2%;
+}
+
+
+
+/* stop-block product-2 */
+/* block product-3 */
+.product-3
+{
+    background: #fff url(../images/ice-h.png);
+}
+.product-3 .price
+{
+	    font-size: 83px;
+    font-family: CoreRhino75Heavy;
+    margin-top: 10%;
+    color: #fff;
+    text-shadow: 1px 1px 5px black;
+    float: right;
+}
+.product-3 .btn.buy-btn
+{
+    float: right;
+    background-color: #63bb57;
+    height: 63px;
+    padding: 1%;
+    font-size: 28px;
+    border-radius: 47px;
+    box-shadow: 1px 1px 1px black;
+}
+.product-3 .btn.buy-btn:hover {
+    
+    background-color: #a8609e;
+
+}
+
+.product-3 ul.list-dotted
+{
+	    color: #000;
+    width: 48%;
+    padding: 1%;
+    margin-left: 6%;
+    margin-top: 0%;
+    font-size: 26px;
+    line-height: 34px;
+}
+.product-3 ul li
+{
+	margin-bottom:1%;
+}
+.product-3 h1.title
+{
+    margin-left: 6%;
+    margin-top: 4%;
+    color: #63bb57;
+    font-size: 70px;
+    text-shadow: 0px 0px 8px #ffffff;
+}
+.product-3 h3.subtitle
+{
+    color: #000;
+    width: 42%;
+    height: 198px;
+    padding: 1%;
+    border-radius: 20px;
+    margin-left: 6%;
+    font-size: 33px;
+    margin-top: 2%;
+    line-height: 46px;
+}
+
+.product-3 h3.subtitle-nab
+{
+    color: #000;
+    width: 48%;
+    padding: 1%;
+    margin-left: 6%;
+    margin-top: 0%;
+    font-size: 33px;
+}
+
+
+
+.box-char
+{
+    position: absolute;
+    left: 22%;
+    top: 26%;
+    width: 24%;
+    filter: shadow;
+    filter: drop-shadow(9px -4px 8px rgba(0,0,0,0.5));
+}
+
+.box-nab
+{
+	width: 39%;
+    float: right;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 3%;
+    border-radius: 24px;
+    box-shadow: -3px -1px 19px #4a76b7;
+    margin-right: 4%;
+}
+
+
+
+/* stop-block product-3 */
+/* block product-4 */
+.product-4
+{
+    background: #fff;
+}
+/* stop-block product-4 */
+/* block end */
+.end
+{
+    background: #2f3860;
+}
+
+.end h1.title
+{
+    margin-top: 3%;
+
+    text-align: center;
+
+    color: #fff;
+}
+
+.end .message-santa
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.end .message-box
+{
+    position: absolute;
+    bottom: 9%;
+    left: 3%;
+}
+.end form
+{
+    position: absolute;
+    z-index: 1;
+    bottom: 25%;
+    left: 58%;
+}
+.end form input
+{
+    margin-bottom: 16%;
+
+    color: #000;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.end form input.name
+{
+    margin-bottom: 19%;
+    margin-left: 2%;
+}
+.end form input.email
+{
+    margin-bottom: 16%;
+    margin-left: 23%;
+}
+.end form input.message
+{
+    width: 167%;
+    margin-bottom: 16%;
+    margin-left: -19%;
+}
+/* stop-block end */
+
+.b-nav-keys
+{
+    font-size: 0;
+
+    float: right;
+}
+
+.b-nav-keys__item_up
+{
+    display: block;
+
+    margin-left: 33px;
+
+    background-position: -92px 0;
+}
+
+.b-nav-keys__item
+{
+    display: inline-block;
+
+    width: 29px;
+    height: 29px;
+    margin: 0 0 2px 2px;
+
+    cursor: pointer;
+
+    background: url(../images/nav_keys_sprite.png) no-repeat;
+}
+.b-nav-keys__item_left
+{
+    background-position: 0 0;
+}
+.b-nav-keys__item_down
+{
+    background-position: -31px 0;
+}
+
+.b-nav-keys__item_right
+{
+    background-position: -62px 0;
+}	
+}
+
+
